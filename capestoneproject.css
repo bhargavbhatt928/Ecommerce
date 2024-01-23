@@ -1,0 +1,206 @@
+﻿.z {
+    z-index: -3;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    padding: 0px;
+}
+
+a {
+    color: black;
+}
+
+.n {
+    background-color: lightgray;
+    overflow-wrap: normal;
+}
+
+.form-control {
+    border-radius: 0px 0px 0px 10px;
+
+}
+
+.search {
+    border-radius: 0px 10px 0px 0px;
+    background-color: rgba(255, 165, 0, 0.8);
+}
+
+.login {
+    background-color: rgba(255, 165, 0, 0.8);
+    border-radius: 5px;
+}
+
+.logo {
+    height: 30px;
+    width: 200px;
+}
+
+#grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1 {
+    position: absolute;
+    z-index: -1;
+    height: 100px;
+    width: 500px;
+}
+
+.img1 {
+    position: relative;
+    width: 100%;
+    z-index: -2;
+}
+
+.copyright {
+    border-top: 1px solid gray;
+
+    text-align: center;
+}
+
+.copyright1 {
+    background-color: black;
+    color: white;
+
+}
+
+.carousel {
+    margin-left: 2%;
+    max-width: 96%;
+    margin-bottom: 1%;
+
+}
+.allproducts {
+    text-align: center;
+}
+.products {
+    text-align: center;
+}
+
+.card-body,
+.card-text {
+   background-color:bisque;
+    text-align: center;
+}
+.card-body{
+    margin-bottom: 3%;
+}
+.fotter {
+    margin-bottom: 0%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+.t,
+.u,
+.v,
+.logemail,
+.logpass {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.w,
+.login2 {
+    margin-top: 2%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(255, 165, 0, 0.8);
+}
+
+.contactus,
+.login1 {
+    text-align: center;
+}
+.addtocart{
+    background-color:rgba(255, 165, 0, 0.8) ;
+}
+.cardallproducts{
+    width:16.6%;
+}
+.women, .men{
+    text-align: center;
+}
+@media(max-width:1200px) {
+    .logo1 {
+
+        width: 95%;
+
+    }
+
+    .z {
+        background-color: black;
+        padding: 5px;
+    }
+
+    .s {
+        max-height: 60px;
+        max-width: 300px;
+        margin: 10px;
+    }
+
+    .logo {
+        margin: 10px;
+    }
+
+    .login,
+    .cart {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #carousel1 {
+        display: none;
+    }
+
+    .fotter {
+        display: none;
+    }
+
+    .fotter2 {
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding-bottom: 15px;
+    }
+    .logemail,
+.logpass {
+    width: 75%;
+    margin-bottom: 1%;
+}
+.login2 {
+    margin-top: 2%;
+    width: 75%;
+    border-radius: 5px;
+    background-color: rgba(255, 165, 0, 0.8);
+}
+.container1{
+    margin-left: 12.5%;
+
+}
+.cardallproducts{
+    width:50%;
+}
+
+}
+
+   
+
+@media (min-width:1200px) {
+    .fotter2 {
+        display: none;
+    }
+
+    #carousel2 {
+        display: none;
+    }
+}
